@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Kernel\\' => array($vendorDir . '/wht/app/src'),
+    'App\\' => array($baseDir . '/app'),
 );

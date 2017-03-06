@@ -2,5 +2,19 @@
     "name": "wht-su/wht-su",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/wht/app"
+        }
+    ],
+
+    "require": {
+        "wht/app": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
 }

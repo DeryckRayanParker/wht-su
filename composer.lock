@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fc54a655225627262fc59d578ddc9b11",
+    "packages": [
+        {
+            "name": "wht/app",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/wht/app",
+                "reference": "9a9fc4978b31b3cb2434b89d9cca9ce011be1696",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kernel\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Rostislav",
+                    "email": "rostislav.khantil@gmail.com"
+                }
+            ],
+            "description": "Core for application"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "wht/apps",
+  "description": "Core for application",
+  "type": "library",
+  "license": "",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Rostislav",
+      "email": "rostislav.khantil@gmail.com"
+    }
+  ],
+  "require": {
+    "wht/kernel": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Wht\\App\\": "src/"
+    }
+  }
+}
+
