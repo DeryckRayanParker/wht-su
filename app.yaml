@@ -1,0 +1,14 @@
+application: wht-su
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: .*
+  script: public/index.php
+
+env_variables:
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/wht-su:europe-west1:wht-su-db;dbname=wht_db_worked
+  MYSQL_USER: root
+  MYSQL_PASSWORD: 123123

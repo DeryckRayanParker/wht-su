@@ -1,0 +1,9 @@
+  If you have installed the Google Cloud SDK on your machine and have run the command gcloud auth application-default login, your identity can be used as a proxy to test code calling APIs from that machine.
+
+  Open a new terminal window and start the proxy.
+  Using explicit instance specification (recommended for production environments) with Unix sockets:
+  ./cloud_sql_proxy -dir=/cloudsql -instances=/cloudsql/wht-su:europe-west1:wht-su-db &
+  Using automatic instance discovery:
+  ./cloud_sql_proxy -dir=/cloudsql &
+
+  dev_appserver.py .
