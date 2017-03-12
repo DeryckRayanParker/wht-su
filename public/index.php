@@ -7,6 +7,11 @@
  */
 include __DIR__ . '/../vendor/autoload.php';
 
+$app = new Wht\App\Application();
+$app->run();
+
+
+/*
 $dsn = getenv('MYSQL_DSN');
 $user = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
@@ -26,6 +31,8 @@ try {
     var_dump($e->getTraceAsString());
 }
 
-$smtm = $db->query('DROP TABLE example');
-
+echo "Rostik";
+echo "test";
 //echo phpinfo();
+
+*/

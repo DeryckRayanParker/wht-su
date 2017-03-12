@@ -4,21 +4,76 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc54a655225627262fc59d578ddc9b11",
+    "content-hash": "9fd0df197ce494c491ece81123b08581",
     "packages": [
+        {
+            "name": "wht/api",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/wht/api",
+                "reference": "730008303d22182f3dc9386022d1264f924ced39",
+                "shasum": null
+            },
+            "require": {
+                "wht/kernel": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wht\\Api\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Rostislav",
+                    "email": "rostislav.khantil@gmail.com"
+                }
+            ],
+            "description": "API"
+        },
         {
             "name": "wht/app",
             "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "packages/wht/app",
-                "reference": "9a9fc4978b31b3cb2434b89d9cca9ce011be1696",
+                "reference": "5942cc65b6a7c51da89574e195085fafcb30eb29",
                 "shasum": null
+            },
+            "require": {
+                "wht/kernel": "*"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Kernel\\": "src/"
+                    "Wht\\App\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Rostislav",
+                    "email": "rostislav.khantil@gmail.com"
+                }
+            ],
+            "description": "Application"
+        },
+        {
+            "name": "wht/kernel",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/wht/kernel",
+                "reference": "e03564b1d2aa9334417b383e56d1fd8b33169425",
+                "shasum": null
+            },
+            "require": {
+                "wht/kernel": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wht\\Kernel\\": "src/"
                 }
             },
             "authors": [

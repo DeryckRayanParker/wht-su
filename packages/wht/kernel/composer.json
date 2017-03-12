@@ -1,5 +1,5 @@
 {
-  "name": "wht/apps",
+  "name": "wht/kernel",
   "description": "Core for application",
   "type": "library",
   "license": "",
@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-4": {
-      "Wht\\App\\": "src/"
+      "Wht\\Kernel\\": "src/"
     }
   }
 }
